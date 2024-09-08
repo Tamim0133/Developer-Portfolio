@@ -1,3 +1,139 @@
-.confirmation {
-    color: green;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 4px;
+    border: none;
+}
+
+.primary-btn:hover {
+    /* background-color: #e64a19; */
+    background-color: #e64a19;
+    cursor: pointer;
+
+}
+
+.secondary-btn {
+    color: #FD6E0A;
+    background-color: white;
+
+    border: 1px solid #FD6E0A;
+    border-radius: 4px;
+
+
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 26px;
+
+}
+
+.secondary-btn:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+
+
+#mary {
+    color: #FD6E0A;
+}
+
+.navbar {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.navbar-left h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+
+.navbar-right a {
+    color: #474747;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.card {
+    margin-left: 2vw;
+    padding: 2em;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card>h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.card>p {
+    line-height: 1.5em;
+}
+
+.half-seciton>h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}
+
+.half-seciton>h2 {
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.half-seciton>h4,
+p {
+    color: #757575;
+    max-width: 33vw;
+}
+
+.half-seciton>hr {
+    width: 35vw;
+    margin-bottom: 3vh;
+}
+
+input {
+    width: 35vw;
+    padding: 1em;
+    margin-top: 1em;
+    border: none;
+    font-size: 16px;
+
+}
+
+textarea {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: 35vw;
+    border: none;
+    padding-top: 3em;
+    padding: 1em;
+    font-size: 20px;
+
 }
